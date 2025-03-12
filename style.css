@@ -123,6 +123,13 @@ header{
             width: 40%;
             height: 700px;
             background-color: violet;
+            text-align: center;
+
+            img{
+                width: 70%;
+                max-width: 500px;
+                margin: 0 auto;
+            }
         }
 
         .text{
