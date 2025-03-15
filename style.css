@@ -26,7 +26,6 @@ header{
 
     .title{
         margin-left: 0px;
-        
         font-size: 5vh;
         width: 10%;
         text-align: center;
@@ -110,7 +109,6 @@ header{
 
     .title{
         width: 100%;
-        background-color: red;
         text-align: center;
         padding: 20px 0px;
         font-family: spongefont;
@@ -118,11 +116,11 @@ header{
     }
 
     .container{
-        display: inline-box;
+        display: flex;
+
         .image{
             width: 40%;
             height: 700px;
-            background-color: violet;
             text-align: center;
 
             img{
@@ -135,7 +133,7 @@ header{
         .text{
             width: 60%;
             height: 700px;
-            background-color: yellow;
+            margin: 0;
         }
     }
 }
