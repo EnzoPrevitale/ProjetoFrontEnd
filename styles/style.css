@@ -1,16 +1,16 @@
 @font-face {
     font-family: merriweather;
-    src: url(fonts/Merriweather.ttf);
+    src: url(../fonts/Merriweather.ttf);
 }
 
 @font-face {
     font-family: metallica;
-    src: url(fonts/Pastor\ of\ Muppets.TTF);
+    src: url(../fonts/Pastor\ of\ Muppets.TTF);
 }
 
 @font-face {
     font-family: gloock;
-    src: url(fonts/Gloock.ttf);
+    src: url(../fonts/Gloock.ttf);
 }
 
 html, body{
@@ -42,7 +42,9 @@ header{
     .title{
         margin-left: 30px;
         text-align: center;
-        font-size: 50px;
+        font-size: 60px;
+        font-family: metallica;
+        margin-top: 10px;
     }
 
         span{
@@ -53,7 +55,7 @@ header{
             display: flex;
             font-size: 30px;
             margin-right: 30px;
-            font-family: gloock;
+            font-family: lato;
     
             a{
                 margin-left: 20px;
@@ -67,13 +69,9 @@ header{
 
 #section1 .container{
     margin: 40px auto;
-    background-color: #B2B9C0;
     width: 55%;
-    height: 594px;
-    background-image: url("images/bomba_atomica.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    height: 500px;
+    background-color: gray;
 }
 
 .dots{
@@ -197,3 +195,4 @@ footer{
         }
     }
 }
+
