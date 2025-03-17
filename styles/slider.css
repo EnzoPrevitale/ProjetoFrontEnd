@@ -1,0 +1,54 @@
+.slider{
+    margin: 40px auto;
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+
+    .slides{
+        width: 400%;
+        display: flex;
+
+        input{
+           display: none;
+        }
+    }
+
+    .slide{
+        width: 25%;
+        position: relative;
+
+        img{
+            max-width: 800px;
+        }
+    }
+
+    .manual-navigation{
+        position: absolute;
+        width: 800px;
+        margin-top: -1000px;
+        display: flex;
+        justify-content: center;
+
+        .manual-btn{
+            background-color: white;
+            border: 2px solid #33679b;
+            padding: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 0 10px;
+            transition: 1s;
+        }
+
+        .manual-btn:hover{
+            background-color: #57a6e7;
+        }
+    }
+
+    #radio1:checked ~ .first{
+        margin-left: 0;
+    }
+
+    #radio2:checked ~ .first{
+        margin-left: -25%;
+    }
+}

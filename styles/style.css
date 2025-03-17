@@ -67,12 +67,12 @@ header{
         }
     }
 
-#section1 .container{
+/*#section1 .container{
     margin: 40px auto;
     width: 55%;
     height: 500px;
     background-color: gray;
-}
+}*/
 
 .dots{
     margin-top: -20px;

@@ -6,11 +6,10 @@
 		<title>Martallica</title>
 		<link href="styles/style.css" rel="stylesheet" />
 		<link href="styles/carrossel.css" rel="stylesheet" />
+		<link href="styles/slider.css" rel="stylesheet" />
 	</head>
 
 	<body>
-		<script src="scripts/script.js"></script>
-
 		<header>
 				<div class="title">
 					<a href="index.html">Martallica</a>
@@ -24,26 +23,41 @@
 		</header>
 
 		<section id="section1">
-			<div class="container" >
-				<div class="slideshow">
-					<a href="">
-						<img src="images/imagem1.jpg" alt="Imagem 1" id="image1">
-					</a>
-					<a href="">
-						<img src="images/imagem2.jpg" alt="Imagem 2" id="image2">
-					</a>
-					<a href="">
-						<img src="images/imagem3.jpg" alt="Imagem 3" id="image3">
-					</a>
-				</div>
-			</div><!--container-->
 
-			<div class="dots">
-				<div class="dot"></div><!--dot-->
-				<div class="dot"></div><!--dot-->
-				<div class="dot"></div><!--dot-->
-				<div class="dot"></div><!--dot-->
-			</div><!--dots-->
+				<div class="slider">
+
+					<div class="slides">
+						<input type="radio" name="radio-btn" id="radio1">
+						<input type="radio" name="radio-btn" id="radio2">
+						<input type="radio" name="radio-btn" id="radio3">
+					</div><!--slides-->
+
+					<div class="slide first">
+						<img src="images/imagem1.jpg" alt="Revólver">
+					</div><!--slide first-->
+
+					<div class="slide">
+						<img src="images/imagem2.jpg" alt="Omnitrix">
+					</div><!--slide-->
+
+					<div class="slide">
+						<img src="images/imagem3.jpg" alt="Bomba">
+					</div><!--slide-->
+
+
+					<div class="navigation-auto">
+						<div class="auto-btn1"></div><!--auto-btn1-->
+						<div class="auto-btn2"></div><!--auto-btn2-->
+						<div class="auto-btn3"></div><!--auto-btn3-->
+					</div><!--navigation-auto-->
+
+					<div class="manual-navigation">
+						<label for="radio1" class="manual-btn"></label>
+						<label for="radio2" class="manual-btn"></label>
+						<label for="radio3" class="manual-btn"></label>
+					</div><!--manual-navigation-->
+
+				</div><!--slider-->
 
 			<div class="text">
 				<p>Apenas os mais valiosos itens encontrados na pesca magnética!</p>
@@ -93,5 +107,7 @@
 			</div><!--container-->
 			<p>Copyright © 2025 | Martallica</p>
 		</footer>
+
+		<script src="scripts/script.js"></script>
 	</body>
 </html>
