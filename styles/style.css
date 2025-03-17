@@ -113,7 +113,29 @@ header{
         display: inline-block;
         width: 250px;
         height: 250px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #004DA5;	
+	vertical-align: bottom;
+	font-family: lato;
     }
+
+    .product:nth-of-type(1){
+	background-image: url(../images/imagem1.jpg);
+	}
+
+    .product:nth-of-type(2){
+	background-image: url(../images/imagem2.jpg);
+	}
+    
+    .product:nth-of-type(3){
+	background-image: url(../images/imagem3.jpg);
+	}
+
+    .product:nth-of-type(4){
+	background-image: url(../images/imagem4.jpg);
+	}
 }
 
 #section3{
@@ -158,7 +180,7 @@ header{
     }
 
     a{
-        background-color: 004DA5;
+        background-color: #004DA5;
         padding: 30px;
         font-size: 22px;
         background-color: #57a6e7;
